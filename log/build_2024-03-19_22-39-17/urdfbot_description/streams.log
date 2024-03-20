@@ -1,0 +1,36 @@
+[0.293s] Invoking command in '/home/wall-e/Desktop/ws_project/build/urdfbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wall-e/Desktop/ws_project/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/ws_project/install/urdfbot_description
+[0.648s] -- The C compiler identification is GNU 11.4.0
+[1.025s] -- The CXX compiler identification is GNU 11.4.0
+[1.054s] -- Detecting C compiler ABI info
+[1.498s] -- Detecting C compiler ABI info - done
+[1.541s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.543s] -- Detecting C compile features
+[1.546s] -- Detecting C compile features - done
+[1.562s] -- Detecting CXX compiler ABI info
+[2.105s] -- Detecting CXX compiler ABI info - done
+[2.142s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.145s] -- Detecting CXX compile features
+[2.148s] -- Detecting CXX compile features - done
+[2.173s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.393s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.431s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[5.229s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[5.231s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[5.232s]   asked CMake to find a package configuration file provided by "xacro", but
+[5.251s]   CMake did not find one.
+[5.273s] 
+[5.273s]   Could not find a package configuration file provided by "xacro" with any of
+[5.273s]   the following names:
+[5.274s] 
+[5.276s]     xacroConfig.cmake
+[5.276s]     xacro-config.cmake
+[5.276s] 
+[5.277s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[5.280s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[5.284s]   provides a separate development package or SDK, be sure it has been
+[5.284s]   installed.
+[5.285s] 
+[5.285s] [0m
+[5.289s] -- Configuring incomplete, errors occurred!
+[5.290s] See also "/home/wall-e/Desktop/ws_project/build/urdfbot_description/CMakeFiles/CMakeOutput.log".
+[5.291s] Invoked command in '/home/wall-e/Desktop/ws_project/build/urdfbot_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wall-e/Desktop/ws_project/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/ws_project/install/urdfbot_description

@@ -1,0 +1,2 @@
+Invoking command in '/home/wall-e/Desktop/ws_project/build/urdfbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wall-e/Desktop/ws_project/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/ws_project/install/urdfbot_description
+Invoked command in '/home/wall-e/Desktop/ws_project/build/urdfbot_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wall-e/Desktop/ws_project/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/ws_project/install/urdfbot_description

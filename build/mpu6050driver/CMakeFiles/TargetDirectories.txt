@@ -1,0 +1,10 @@
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/uninstall.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/mpu6050driver_uninstall.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/mpu6050driver.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/test.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/edit_cache.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/rebuild_cache.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/list_install_components.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/install.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/install/local.dir
+/home/wall-e/Desktop/ws_project/build/mpu6050driver/CMakeFiles/install/strip.dir
