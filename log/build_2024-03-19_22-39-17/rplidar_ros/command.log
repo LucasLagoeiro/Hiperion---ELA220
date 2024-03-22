@@ -1,1 +1,0 @@
-Invoking command in '/home/wall-e/Desktop/ws_project/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wall-e/Desktop/ws_project/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/ws_project/install/rplidar_ros
