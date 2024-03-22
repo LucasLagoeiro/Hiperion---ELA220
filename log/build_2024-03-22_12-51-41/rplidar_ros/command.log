@@ -1,0 +1,4 @@
+Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros
+Invoked command in '/home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros

@@ -1,0 +1,39 @@
+[0.689s] Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description -- -j4 -l4
+[0.864s] Invoked command in '/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description -- -j4 -l4
+[1.150s] Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description
+[1.192s] -- Install configuration: ""
+[1.193s] -- Up-to-date: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//urdf
+[1.193s] -- Up-to-date: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//urdf/ box_bot_meshes_collisions_inertias.urdf 
+[1.194s] -- Up-to-date: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_geometric_meshes.urdf
+[1.195s] -- Up-to-date: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_geometric.urdf
+[1.196s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//rviz
+[1.198s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//launch
+[1.199s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_geometric.launch.py
+[1.199s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_meshes_collisions_inertias.launch.py
+[1.200s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_meshes.launch.py
+[1.202s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes
+[1.204s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.dae
+[1.205s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors
+[1.206s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidar.dae
+[1.229s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/realsense.dae
+[1.230s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidartexture.png
+[1.234s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/textures
+[1.235s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/textures/lambert3_baseColor.png
+[1.237s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.blend
+[1.245s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/lambert3_baseColor.png
+[1.251s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description
+[1.253s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description
+[1.256s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh
+[1.269s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv
+[1.272s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh
+[1.272s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv
+[1.273s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash
+[1.273s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh
+[1.274s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh
+[1.274s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv
+[1.276s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/package.dsv
+[1.279s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description
+[1.279s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake
+[1.280s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake
+[1.281s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description/share/my_box_bot_description/package.xml
+[1.286s] Invoked command in '/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description

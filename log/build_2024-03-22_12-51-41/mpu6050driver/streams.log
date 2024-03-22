@@ -1,0 +1,28 @@
+[0.485s] Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver -- -j4 -l4
+[0.675s] [35m[1mConsolidate compiler generated dependencies of target mpu6050driver[0m
+[0.800s] [100%] Built target mpu6050driver
+[0.867s] Invoked command in '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver -- -j4 -l4
+[1.049s] Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver
+[1.079s] -- Install configuration: ""
+[1.080s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[1.091s] -- Set runtime path of "/home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/lib/mpu6050driver/mpu6050driver" to ""
+[1.093s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver//launch
+[1.094s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[1.096s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver//params
+[1.097s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[1.098s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[1.099s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[1.100s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[1.101s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[1.103s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[1.104s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[1.106s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[1.107s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[1.111s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[1.112s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[1.115s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/package.dsv
+[1.116s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[1.116s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[1.117s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[1.128s] -- Installing: /home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver/share/mpu6050driver/package.xml
+[1.452s] Invoked command in '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver

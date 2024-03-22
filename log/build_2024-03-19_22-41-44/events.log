@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001699] (mpu6050driver) JobQueued: {'identifier': 'mpu6050driver', 'dependencies': OrderedDict()}
+[0.002022] (my_box_bot_description) JobQueued: {'identifier': 'my_box_bot_description', 'dependencies': OrderedDict()}
+[0.002192] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002302] (my_box_bot_gazebo) JobQueued: {'identifier': 'my_box_bot_gazebo', 'dependencies': OrderedDict([('my_box_bot_description', '/home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description')])}
+[0.002660] (my_box_bot_description) JobStarted: {'identifier': 'my_box_bot_description'}
+[0.098537] (-) TimerEvent: {}
+[0.199510] (-) TimerEvent: {}
+[0.223738] (mpu6050driver) JobStarted: {'identifier': 'mpu6050driver'}
+[0.299690] (-) TimerEvent: {}
+[0.400534] (-) TimerEvent: {}
+[0.441029] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.500720] (-) TimerEvent: {}
+[0.601640] (-) TimerEvent: {}
+[0.670091] (my_box_bot_description) JobProgress: {'identifier': 'my_box_bot_description', 'progress': 'cmake'}
+[0.671459] (my_box_bot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/wall-e/Desktop/Hiperion---ELA220/src/my_box_bot_description', '-DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/Hiperion---ELA220/install/my_box_bot_description'], 'cwd': '/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wall-e'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wall-e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9b3c93c411041e7de9536b5865fa3a47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wall-e'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wall-e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/walle-desktop:@/tmp/.ICE-unix/1619,unix/walle-desktop:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1f31603_38ad_498d_9362_df202ddecb77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MJ4K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9b3c93c411041e7de9536b5865fa3a47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.685681] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'cmake'}
+[0.686752] (mpu6050driver) Command: {'cmd': ['/usr/bin/cmake', '/home/wall-e/Desktop/Hiperion---ELA220/src/ros2_mpu6050_driver', '-DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver'], 'cwd': '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wall-e'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wall-e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9b3c93c411041e7de9536b5865fa3a47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wall-e'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wall-e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/walle-desktop:@/tmp/.ICE-unix/1619,unix/walle-desktop:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1f31603_38ad_498d_9362_df202ddecb77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MJ4K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9b3c93c411041e7de9536b5865fa3a47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.703302] (-) TimerEvent: {}
+[0.708824] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.710112] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/wall-e/Desktop/Hiperion---ELA220/src/rplidar_ros', '-DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/Hiperion---ELA220/install/rplidar_ros'], 'cwd': '/home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wall-e'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wall-e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9b3c93c411041e7de9536b5865fa3a47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wall-e'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wall-e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/walle-desktop:@/tmp/.ICE-unix/1619,unix/walle-desktop:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1f31603_38ad_498d_9362_df202ddecb77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MJ4K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9b3c93c411041e7de9536b5865fa3a47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.803627] (-) TimerEvent: {}
+[0.904724] (-) TimerEvent: {}
+[0.998392] (my_box_bot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.004827] (mpu6050driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.005873] (-) TimerEvent: {}
+[1.046564] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.106154] (-) TimerEvent: {}
+[1.207901] (-) TimerEvent: {}
+[1.309678] (-) TimerEvent: {}
+[1.325091] (my_box_bot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.334394] (mpu6050driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.370738] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.371685] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.377862] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.408261] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.409810] (-) TimerEvent: {}
+[1.510958] (-) TimerEvent: {}
+[1.612691] (-) TimerEvent: {}
+[1.713862] (-) TimerEvent: {}
+[1.776487] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.777620] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.805104] (my_box_bot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.806466] (mpu6050driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.807635] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.808954] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.809429] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.809872] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.813718] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.814364] (-) TimerEvent: {}
+[1.820327] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.821246] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.839929] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.840872] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.850294] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.862602] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.914591] (-) TimerEvent: {}
+[2.015981] (-) TimerEvent: {}
+[2.118053] (-) TimerEvent: {}
+[2.219478] (-) TimerEvent: {}
+[2.239311] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.248131] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.279414] (my_box_bot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.281183] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.284882] (my_box_bot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.288343] (mpu6050driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.289773] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.291650] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.309378] (my_box_bot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.311196] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.315143] (mpu6050driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.319576] (-) TimerEvent: {}
+[2.336922] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.338126] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.340050] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.365004] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.419754] (-) TimerEvent: {}
+[2.520960] (-) TimerEvent: {}
+[2.622487] (-) TimerEvent: {}
+[2.724758] (-) TimerEvent: {}
+[2.826122] (-) TimerEvent: {}
+[2.929448] (-) TimerEvent: {}
+[3.030541] (-) TimerEvent: {}
+[3.132463] (-) TimerEvent: {}
+[3.234077] (-) TimerEvent: {}
+[3.335107] (-) TimerEvent: {}
+[3.340724] (mpu6050driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.375018] (my_box_bot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.435324] (-) TimerEvent: {}
+[3.466644] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.535606] (-) TimerEvent: {}
+[3.636603] (-) TimerEvent: {}
+[3.737783] (-) TimerEvent: {}
+[3.840244] (-) TimerEvent: {}
+[3.941061] (-) TimerEvent: {}
+[4.036812] (mpu6050driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.041242] (-) TimerEvent: {}
+[4.062115] (my_box_bot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[4.125334] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.141430] (-) TimerEvent: {}
+[4.242679] (-) TimerEvent: {}
+[4.343866] (-) TimerEvent: {}
+[4.381609] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.421991] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.444035] (-) TimerEvent: {}
+[4.455831] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.476719] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.497669] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.544243] (-) TimerEvent: {}
+[4.551800] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.556610] (mpu6050driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.631221] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.644425] (-) TimerEvent: {}
+[4.682583] (mpu6050driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.742810] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.744598] (-) TimerEvent: {}
+[4.793900] (my_box_bot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[4.795539] (my_box_bot_description) StderrLine: {'line': b'  By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.796078] (my_box_bot_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "xacro", but\n'}
+[4.796603] (my_box_bot_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.797202] (my_box_bot_description) StderrLine: {'line': b'\n'}
+[4.798055] (my_box_bot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "xacro" with any of\n'}
+[4.798862] (my_box_bot_description) StderrLine: {'line': b'  the following names:\n'}
+[4.801927] (my_box_bot_description) StderrLine: {'line': b'\n'}
+[4.812168] (my_box_bot_description) StderrLine: {'line': b'    xacroConfig.cmake\n'}
+[4.812988] (my_box_bot_description) StderrLine: {'line': b'    xacro-config.cmake\n'}
+[4.813459] (my_box_bot_description) StderrLine: {'line': b'\n'}
+[4.813797] (my_box_bot_description) StderrLine: {'line': b'  Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set\n'}
+[4.814141] (my_box_bot_description) StderrLine: {'line': b'  "xacro_DIR" to a directory containing one of the above files.  If "xacro"\n'}
+[4.814722] (my_box_bot_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.815156] (my_box_bot_description) StderrLine: {'line': b'  installed.\n'}
+[4.815530] (my_box_bot_description) StderrLine: {'line': b'\n'}
+[4.815877] (my_box_bot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[4.817268] (my_box_bot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.819435] (my_box_bot_description) StdoutLine: {'line': b'See also "/home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description/CMakeFiles/CMakeOutput.log".\n'}
+[4.820717] (my_box_bot_description) CommandEnded: {'returncode': 1}
+[4.844946] (-) TimerEvent: {}
+[4.945930] (-) TimerEvent: {}
+[5.048020] (-) TimerEvent: {}
+[5.088113] (my_box_bot_description) JobEnded: {'identifier': 'my_box_bot_description', 'rc': 1}
+[5.091750] (mpu6050driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.105101] (mpu6050driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.148249] (-) TimerEvent: {}
+[5.154581] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.175675] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.248458] (-) TimerEvent: {}
+[5.349206] (-) TimerEvent: {}
+[5.449921] (-) TimerEvent: {}
+[5.550721] (-) TimerEvent: {}
+[5.651651] (-) TimerEvent: {}
+[5.713612] (mpu6050driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.751833] (-) TimerEvent: {}
+[5.772891] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.852034] (-) TimerEvent: {}
+[5.953127] (-) TimerEvent: {}
+[5.962726] (mpu6050driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.021574] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.053334] (-) TimerEvent: {}
+[6.154157] (-) TimerEvent: {}
+[6.254966] (-) TimerEvent: {}
+[6.355758] (-) TimerEvent: {}
+[6.387870] (mpu6050driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.438479] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.455930] (-) TimerEvent: {}
+[6.462558] (mpu6050driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.511264] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.556156] (-) TimerEvent: {}
+[6.657126] (-) TimerEvent: {}
+[6.758284] (-) TimerEvent: {}
+[6.823214] (mpu6050driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.826054] (mpu6050driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.858423] (-) TimerEvent: {}
+[6.875677] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.877644] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.958644] (-) TimerEvent: {}
+[7.059642] (-) TimerEvent: {}
+[7.160599] (-) TimerEvent: {}
+[7.199960] (mpu6050driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.200596] (mpu6050driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.240326] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.244227] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.260800] (-) TimerEvent: {}
+[7.361617] (-) TimerEvent: {}
+[7.462484] (-) TimerEvent: {}
+[7.563327] (-) TimerEvent: {}
+[7.664159] (-) TimerEvent: {}
+[7.764969] (-) TimerEvent: {}
+[7.865825] (-) TimerEvent: {}
+[7.914983] (mpu6050driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.941684] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.966022] (-) TimerEvent: {}
+[8.066872] (-) TimerEvent: {}
+[8.167634] (-) TimerEvent: {}
+[8.268389] (-) TimerEvent: {}
+[8.369162] (-) TimerEvent: {}
+[8.470012] (-) TimerEvent: {}
+[8.470855] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.570314] (-) TimerEvent: {}
+[8.671279] (-) TimerEvent: {}
+[8.772563] (-) TimerEvent: {}
+[8.788762] (mpu6050driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.854605] (mpu6050driver) StdoutLine: {'line': b'-- Generating done\n'}
+[8.865037] (mpu6050driver) StdoutLine: {'line': b'-- Build files have been written to: /home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver\n'}
+[8.872931] (-) TimerEvent: {}
+[8.930587] (mpu6050driver) JobEnded: {'identifier': 'mpu6050driver', 'rc': 'SIGINT'}
+[8.973090] (-) TimerEvent: {}
+[8.974450] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.073289] (-) TimerEvent: {}
+[9.086403] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[9.094755] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/wall-e/Desktop/Hiperion---ELA220/build/rplidar_ros\n'}
+[9.143623] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[9.146735] (my_box_bot_gazebo) JobSkipped: {'identifier': 'my_box_bot_gazebo'}
+[9.146885] (-) EventReactorShutdown: {}

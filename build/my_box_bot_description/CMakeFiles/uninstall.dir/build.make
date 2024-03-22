@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/llagoeiro/Desktop/Hiperion---ELA220/src/my_box_bot_description
+CMAKE_SOURCE_DIR = /home/wall-e/Desktop/Hiperion---ELA220/src/my_box_bot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/llagoeiro/Desktop/Hiperion---ELA220/build/my_box_bot_description
+CMAKE_BINARY_DIR = /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/llagoeiro/Desktop/Hiperion---ELA220/build/my_box_bot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/llagoeiro/Desktop/Hiperion---ELA220/src/my_box_bot_description /home/llagoeiro/Desktop/Hiperion---ELA220/src/my_box_bot_description /home/llagoeiro/Desktop/Hiperion---ELA220/build/my_box_bot_description /home/llagoeiro/Desktop/Hiperion---ELA220/build/my_box_bot_description /home/llagoeiro/Desktop/Hiperion---ELA220/build/my_box_bot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wall-e/Desktop/Hiperion---ELA220/src/my_box_bot_description /home/wall-e/Desktop/Hiperion---ELA220/src/my_box_bot_description /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description /home/wall-e/Desktop/Hiperion---ELA220/build/my_box_bot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
