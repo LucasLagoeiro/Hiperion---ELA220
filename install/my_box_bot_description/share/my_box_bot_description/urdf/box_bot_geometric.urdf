@@ -49,14 +49,14 @@
   <link name="wheel1_link">
 
     <visual>  
-      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
       <geometry>
           <cylinder length="0.025" radius="0.033"/>
       </geometry>
     </visual>
 
     <collision>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <geometry>
           <cylinder length="0.025" radius="0.033"/>
         </geometry>
@@ -64,7 +64,7 @@
 
 
     <inertial>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <mass value="0.05"/>
         <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
     </inertial>
@@ -84,14 +84,14 @@
 
 
     <visual>
-      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
       <geometry>
           <cylinder length="0.025" radius="0.033"/>
       </geometry>
     </visual>
 
     <collision>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <geometry>
           <cylinder length="0.025" radius="0.033"/>
         </geometry>
@@ -99,7 +99,7 @@
 
 
     <inertial>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <mass value="0.05"/>
         <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
     </inertial>
@@ -117,14 +117,14 @@
   <link name="wheel3_link">
 
     <visual>
-      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
       <geometry>
           <cylinder length="0.025" radius="0.033"/>
       </geometry>
     </visual>
 
     <collision>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <geometry>
           <cylinder length="0.025" radius="0.033"/>
         </geometry>
@@ -132,7 +132,7 @@
 
 
     <inertial>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <mass value="0.05"/>
         <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
     </inertial>
@@ -146,20 +146,20 @@
     <parent link="body_link"/>
     <child link="wheel4_link"/>
     <origin xyz="0.0575 -0.0665 -0.03"/>
-    <axis xyz="0 0 1"/>
+    <axis xyz="0 0 0"/>
   </joint>
 
   <link name="wheel4_link">
 
     <visual>
-      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
       <geometry>
           <cylinder length="0.025" radius="0.033"/>
       </geometry>
     </visual>
 
     <collision>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <geometry>
           <cylinder length="0.025" radius="0.033"/>
         </geometry>
@@ -167,7 +167,7 @@
 
 
     <inertial>
-        <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+        <origin rpy="1.5707 1.5707 0 " xyz="0 0 0"/>
         <mass value="0.05"/>
         <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
     </inertial>
@@ -343,9 +343,9 @@
     <origin xyz="-0.03 0.0 0.0325"/>
     <axis xyz="0 0 0"/>
   </joint>
+
+
   <link name="gyro_link">
-
-
     <visual>
       <geometry>
           <box size="0.02 0.02 0.015"/>
@@ -370,6 +370,77 @@
   </link>
 
 
+  <!--Plugins-->
+
+  <gazebo reference="lidar_link">
+
+    <sensor name="lidar_link" type="ray">
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>180</samples>
+            <resolution>1.0</resolution>
+            <min_angle>-3.14</min_angle>
+            <max_angle>3.14</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.3</min>
+          <max>10.0</max>
+          <resolution>0.015000</resolution>
+        </range>
+      </ray>
+      <always_on>true</always_on>
+      <update_rate>100.0</update_rate>
+      <visualize>true</visualize>             
+      <plugin name="laser_back" filename="libgazebo_ros_laser.so">
+        <ros>
+          <remapping>~/out:=scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <!-- <frame_name>base_scan</frame_name> -->
+      </plugin>
+    </sensor>
+
+    </gazebo>  
+
+    <gazebo>
+      <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
+        <updateRate>100.0</updateRate>
+        <robotNamespace>/</robotNamespace>
+        <leftFrontJoint>wheel3_link</leftFrontJoint>
+        <rightFrontJoint>wheel4_link</rightFrontJoint>
+        <leftRearJoint>wheel2_link</leftRearJoint>
+        <rightRearJoint>wheel1_link</rightRearJoint>
+        <wheelSeparation>0.162</wheelSeparation>
+        <wheelDiameter>0.66</wheelDiameter>
+        <robotBaseFrame>base_link</robotBaseFrame>
+        <torque>20</torque>
+        <topicName>cmd_vel</topicName>
+        <broadcastTF>false</broadcastTF>
+      </plugin>
+    </gazebo>
+
+    <gazebo reference="gyro_link">
+      <gravity>true</gravity>
+      <sensor name="imu_sensor" type="imu">
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <visualize>true</visualize>
+        <topic>__default_topic__</topic>
+        <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+          <topicName>imu</topicName>
+          <bodyName>imu_link</bodyName>
+          <updateRateHZ>10.0</updateRateHZ>
+          <gaussianNoise>0.0</gaussianNoise>
+          <xyzOffset>0 0 0</xyzOffset>
+          <rpyOffset>0 0 0</rpyOffset>
+          <frameName>imu_link</frameName>
+          <initialOrientationAsReference>false</initialOrientationAsReference>
+        </plugin>
+        <pose>0 0 0 0 0 0</pose>
+      </sensor>
+    </gazebo>  
 
 
 </robot>

@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001155] (-) JobUnselected: {'identifier': 'mpu6050driver'}
-[0.001418] (-) JobUnselected: {'identifier': 'my_box_bot_description'}
-[0.001537] (-) JobUnselected: {'identifier': 'my_box_bot_gazebo'}
-[0.001822] (-) JobUnselected: {'identifier': 'rplidar_ros'}
-[0.002252] (-) EventReactorShutdown: {}

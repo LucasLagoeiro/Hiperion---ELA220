@@ -1,5 +1,0 @@
-[0.483s] Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver -- -j4 -l4
-[0.827s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o[0m
-[0.872s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050driver.cpp.o[0m
-[40.983s] [100%] [32m[1mLinking CXX executable mpu6050driver[0m
-[43.767s] [100%] Built target mpu6050driver

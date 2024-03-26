@@ -1,1 +1,0 @@
-Invoking command in '/home/wall-e/Desktop/Hiperion---ELA220/build/mpu6050driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wall-e/Desktop/Hiperion---ELA220/src/ros2_mpu6050_driver -DCMAKE_INSTALL_PREFIX=/home/wall-e/Desktop/Hiperion---ELA220/install/mpu6050driver
