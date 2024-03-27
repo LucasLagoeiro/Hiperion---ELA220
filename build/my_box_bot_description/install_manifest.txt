@@ -2,6 +2,7 @@
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//urdf/ box_bot_meshes_collisions_inertias.urdf 
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_geometric_meshes.urdf
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_meshes_collisions_inertias.launch.py
+/home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_sensor.launch.py
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_meshes.launch.py
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_geometric.launch.py
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.blend

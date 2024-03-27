@@ -1,5 +1,6 @@
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/start_world.launch.py
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_description.launch.py
+/home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_sensor.launch.xml
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2.launch.xml
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds/bot_bot_empty.world
 /home/llagoeiro/Desktop/Hiperion-ELA220/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.config
