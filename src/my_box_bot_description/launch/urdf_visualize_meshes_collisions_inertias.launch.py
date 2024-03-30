@@ -9,7 +9,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
     ####### DATA INPUT ##########
-    urdf_file = 'box_bot_geometric.urdf'
+    urdf_file = 'box_bot_meshes_collisions_inertias.urdf'
     #xacro_file = "box_bot.xacro"
     package_description = "my_box_bot_description"
 
@@ -28,8 +28,6 @@ def generate_launch_description():
         output="screen"
     )
 
-    #joint_state_publisher_gui_node = Node( package="joint_state_publisher_gui", executable="joint_state_publisher_gui", name="joint_state_publisher_gui", condition=launch.conditions.IfCondition(LaunchConfiguration("gui")), ) 
-
     # RVIZ Configuration
     rviz_config_dir = os.path.join(get_package_share_directory(package_description), 'rviz', 'urdf_vis.rviz')
 
@@ -47,7 +45,5 @@ def generate_launch_description():
         [            
             robot_state_publisher_node,
             rviz_node
-            #joint_state_publisher_gui_node
-            
         ]
     )
