@@ -7,8 +7,9 @@
       },
       "includePath": [
         "/opt/ros/humble/include/**",
-        "/home/llagoeiro/Desktop/Hiperion---ELA220/src/my_box_bot_description/include/**",
-        "/home/llagoeiro/Desktop/Hiperion---ELA220/src/my_box_bot_gazebo/include/**",
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/src/my_box_bot_gazebo/include/**",
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver/include/**",
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
