@@ -1,0 +1,117 @@
+running egg_info
+creating ../../build/gazebo/gazebo.egg-info
+writing ../../build/gazebo/gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/gazebo/gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/gazebo/gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/gazebo/gazebo.egg-info/requires.txt
+writing top-level names to ../../build/gazebo/gazebo.egg-info/top_level.txt
+writing manifest file '../../build/gazebo/gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/gazebo/gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/gazebo/gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+copying gazebo/no_com_classe.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+copying gazebo/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+copying gazebo/robot.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+copying gazebo/no_simples.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+copying gazebo/r2d2.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+copying gazebo/checkpoints.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo
+running install
+running install_lib
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/no_com_classe.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/robot.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/no_simples.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/r2d2.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/checkpoints.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo
+byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/no_com_classe.py to no_com_classe.cpython-310.pyc
+byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/robot.py to robot.cpython-310.pyc
+byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/no_simples.py to no_simples.cpython-310.pyc
+byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/r2d2.py to r2d2.cpython-310.pyc
+byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/checkpoints.py to checkpoints.cpython-310.pyc
+running install_data
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index/resource_index
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index/resource_index/packages
+copying resource/gazebo -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config
+copying config/Default.perspective -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map
+copying config/map/checkpoints.json -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map
+copying config/map/map2.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map
+copying config/map/map.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map
+copying config/map/map.pgm -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map
+copying config/map/map2.pgm -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz
+copying config/rviz/navigation.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz
+copying config/rviz/mapping_slam_toolbox.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz
+copying config/rviz/mapping_cartographer.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz
+copying config/rviz/robot.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav
+copying config/nav/nav2_params.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav
+copying config/nav/cartographer.lua -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav
+copying config/nav/slam_toolbox.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav
+copying config/nav/ekf.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch
+copying launch/mapping_slam_toolbox.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/load.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/exemplo.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/mapping_cartographer.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/turtlebot.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/display.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/simulation.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/navigation2.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/load_turtlebot.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+copying launch/navigation.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds
+copying simulation/worlds/simple_room.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds
+copying simulation/worlds/empty.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds
+copying simulation/worlds/simple_room_with_fixed_boxes.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds
+copying simulation/worlds/simple_room_with_random_boxes.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/simple_room
+copying simulation/models/simple_room/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/simple_room
+copying simulation/models/simple_room/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/simple_room
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/r2d2
+copying simulation/models/r2d2/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/r2d2
+copying simulation/models/r2d2/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/r2d2
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/box
+copying simulation/models/box/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/box
+copying simulation/models/box/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/box
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/wood_square
+copying simulation/models/wood_square/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/wood_square
+copying simulation/models/wood_square/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/wood_square
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf
+copying urdf/myfirstrobot.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/
+copying urdf/robot.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/
+copying urdf/sam_bot_description.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/
+copying urdf/myurdf.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/
+copying urdf/myfirstrobot.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros
+copying urdf/macros/link_geometry.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros
+copying urdf/macros/properties.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts
+copying urdf/macros/parts/head.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts
+copying urdf/macros/parts/wheel.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts
+copying urdf/macros/parts/base.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts
+copying urdf/macros/parts/leg.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts
+creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation
+copying urdf/simulation/imu.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation
+copying urdf/simulation/gazebo_base.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation
+copying urdf/simulation/gazebo_camera.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation
+copying urdf/simulation/gazebo_laser.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation
+running install_egg_info
+Copying ../../build/gazebo/gazebo.egg-info to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing checkpoints script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo
+Installing no_com_classe script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo
+Installing no_simples script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo
+Installing r2d2 script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo
+writing list of installed files to '/home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/install.log'

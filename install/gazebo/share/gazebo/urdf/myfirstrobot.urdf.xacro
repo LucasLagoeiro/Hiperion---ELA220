@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<robot name="box_bot">
+        
+  <material name="red">
+      <color rgba="1.0 0.0 0.0 1"/>
+  </material>
+
+  <material name="green_light">
+      <color rgba="0.0 1.0 0.0 1"/>
+  </material>
+
+  <material name="green_dark">
+    <color rgba="0.0 0.5 0.0 1"/>
+  </material>
+
+  <material name="blue">
+      <color rgba="0.0 0.0 1.0 1"/>
+  </material>
+
+  <material name="yellow">
+      <color rgba="1.0 1.0 0.0 1"/>
+  </material>
+
+  <material name="black">
+      <color rgba="0.0 0.0 0.0 1"/>
+  </material>
+
+  <material name="white">
+      <color rgba="1.0 1.0 1.0 1"/>
+  </material>
+
+  <material name="box_bot_blue">
+      <color rgba="0.088656 0.428691 0.491021 1"/>
+  </material>
+
+  <link name="base_footprint">
+  </link>
+
+
+  <!-- Body -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="/home/llagoeiro/Desktop/aprendendo_ros2/src/pacote_de_exemplos/meshes/cute_cube.dae" scale="0.256 0.150 0.065"/>
+      </geometry>
+      <material name="box_bot_blue"/>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.256 0.150 0.065"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+
+  </link>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.010" />
+    <parent link="base_footprint" />
+    <child link="base_link" />
+  </joint>
+
+  <!-- Wheel Left Behind -->
+  <link name="left_wheel">      
+      <visual>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.025" radius="0.033"/>
+        </geometry>
+        <material name="red"/>
+      </visual>
+
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+         <cylinder length="0.001" radius="0.001"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.05"/>
+        <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
+      </inertial>
+
+  </link>
+
+
+  <joint name="joint_left_wheel" type="continuous">
+    <origin rpy="0 0 0" xyz="-0.0575 0.0665 -0.03"/>
+    <child link="left_wheel"/>
+    <parent link="base_link"/>
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <limit effort="10000" velocity="1000"/>
+    <joint_properties damping="1.0" friction="1.0"/>
+  </joint>
+
+  <gazebo reference="left_wheel">
+   <material>Gazebo/Black</material>
+  </gazebo>
+
+  <!-- Wheel Right Behind -->
+  <link name="right_wheel">      
+      <visual>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.025" radius="0.033"/>
+        </geometry>
+        <material name="green"/>
+      </visual>
+
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.001" radius="0.001"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.05"/>
+        <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
+      </inertial>
+  </link>
+
+  <joint name="joint_right_wheel" type="continuous">
+    <origin rpy="0 0 0" xyz="-0.0575 -0.0665 -0.03"/>
+    <child link="right_wheel"/>
+    <parent link="base_link"/>
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <limit effort="10000" velocity="1000"/>
+    <joint_properties damping="1.0" friction="1.0"/>
+  </joint>
+
+  <gazebo reference="right_wheel">
+   <material>Gazebo/Black</material>
+  </gazebo>
+
+
+  <!-- Wheel Right Front -->
+  <link name="right_wheel_f">      
+      <visual>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.025" radius="0.033"/>
+        </geometry>
+        <material name="green"/>
+      </visual>
+
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.001" radius="0.001"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.05"/>
+        <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
+      </inertial>
+  </link>
+
+  <gazebo reference="right_wheel_f">
+   <material>Gazebo/Black</material>
+  </gazebo>
+
+
+  <joint name="joint_right_wheel_f" type="continuous">  
+    <origin rpy="0 0 0" xyz="0.0575 -0.0665 -0.03"/>
+    <child link="right_wheel_f"/>
+    <parent link="base_link"/>
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <limit effort="10000" velocity="1000"/>
+    <joint_properties damping="1.0" friction="1.0"/>
+  </joint>
+
+  <!-- Wheel Left Front -->
+  <link name="left_wheel_f">      
+      <visual>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.025" radius="0.033"/>
+        </geometry>
+        <material name="green"/>
+      </visual>
+
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.001" radius="0.001"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.05"/>
+        <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
+      </inertial>
+  </link>
+
+  <gazebo reference="left_wheel_f">
+   <material>Gazebo/Black</material>
+  </gazebo>
+
+
+  <joint name="joint_left_wheel_f" type="continuous">  
+    <origin rpy="0 0 0" xyz="0.0575 0.0665 -0.03"/>
+    <child link="left_wheel_f"/>
+    <parent link="base_link"/>
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <limit effort="10000" velocity="1000"/>
+    <joint_properties damping="1.0" friction="1.0"/>
+  </joint>
+
+  <!-- Diferential Robot Wheel Left  -->
+  <link name="diff_wheel_L">      
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.025" radius="0.033"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.05"/>
+        <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
+      </inertial>
+  </link>
+
+
+  <joint name="joint_diff_wheel_L" type="continuous">  
+    <origin rpy="0 0 0" xyz="0 0.0665 -0.03"/>
+    <child link="diff_wheel_L"/>
+    <parent link="base_link"/>
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <limit effort="10000" velocity="1000"/>
+    <joint_properties damping="1.0" friction="1.0"/>
+  </joint>
+
+  <!-- Diferential Robot Wheel Right  -->
+  <link name="diff_wheel_R">      
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.025" radius="0.033"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.05"/>
+        <inertia ixx="1.531666666666667e-05" ixy="0" ixz="0" iyy="1.531666666666667e-05" iyz="0" izz="3.0625000000000006e-05"/>
+      </inertial>
+  </link>
+
+
+  <joint name="joint_diff_wheel_R" type="continuous">  
+    <origin rpy="0 0 0" xyz="0 -0.0665 -0.03"/>
+    <child link="diff_wheel_R"/>
+    <parent link="base_link"/>
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <limit effort="10000" velocity="1000"/>
+    <joint_properties damping="1.0" friction="1.0"/>
+  </joint>
+
+  <!-- Caster Wheel Front -->
+  <link name="front_yaw_link">
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.01" radius="0.007"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+          <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+          <mass value="0.001"/>
+          <inertia ixx="5.145833333333334e-09" ixy="0" ixz="0" iyy="5.145833333333334e-09" iyz="0" izz="1.0125000000000003e-08"/>
+      </inertial>
+
+  </link>
+
+  <joint name="front_yaw_joint" type="continuous">
+    <origin rpy="0 0 0" xyz="0.08 0 -0.055" />
+    <parent link="base_link" />
+    <child link="front_yaw_link" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000.0" velocity="100.0" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+
+    <gazebo reference="front_yaw_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+
+
+  <link name="front_roll_link">
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.01" radius="0.007"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+          <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+          <mass value="0.001"/>
+          <inertia ixx="5.145833333333334e-09" ixy="0" ixz="0" iyy="5.145833333333334e-09" iyz="0" izz="1.0125000000000003e-08"/>
+      </inertial>
+  </link>
+
+  <joint name="front_roll_joint" type="continuous">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <parent link="front_yaw_link" />
+    <child link="front_roll_link" />
+    <axis xyz="1 0 0" />
+    <limit effort="1000.0" velocity="100.0" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+
+    <gazebo reference="front_roll_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+
+  <link name="front_pitch_link">
+    <collision>
+      <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.010"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="4e-08" ixy="0" ixz="0" iyy="4e-08" iyz="0" izz="4e-08"/>
+    </inertial>
+  </link>
+
+  <gazebo reference="front_pitch_link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <material>Gazebo/Purple</material>
+  </gazebo>
+
+  <joint name="front_pitch_joint" type="continuous">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <parent link="front_roll_link" />
+    <child link="front_pitch_link" />
+    <axis xyz="0 1 0" />
+    <limit effort="1000.0" velocity="100.0" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+
+<!-- Caster Wheel Back -->
+  <link name="back_yaw_link">
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.001" radius="0.0045000000000000005"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+          <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+          <mass value="0.001"/>
+          <inertia ixx="5.145833333333334e-09" ixy="0" ixz="0" iyy="5.145833333333334e-09" iyz="0" izz="1.0125000000000003e-08"/>
+      </inertial>
+  </link>
+
+  <joint name="back_yaw_joint" type="continuous">
+    <origin rpy="0 0 0" xyz="-0.08 0 -0.055" />
+    <parent link="base_link" />
+    <child link="back_yaw_link" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000.0" velocity="100.0" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+
+    <gazebo reference="back_yaw_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+
+
+  <link name="back_roll_link">
+      <collision>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <geometry>
+          <cylinder length="0.001" radius="0.0045000000000000005"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+          <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+          <mass value="0.001"/>
+          <inertia ixx="5.145833333333334e-09" ixy="0" ixz="0" iyy="5.145833333333334e-09" iyz="0" izz="1.0125000000000003e-08"/>
+      </inertial>
+  </link>
+
+  <joint name="back_roll_joint" type="continuous">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <parent link="back_yaw_link" />
+    <child link="back_roll_link" />
+    <axis xyz="1 0 0" />
+    <limit effort="1000.0" velocity="100.0" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+
+    <gazebo reference="back_roll_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+
+
+  <link name="back_pitch_link">
+    <collision>
+      <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.010"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+        <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="4e-08" ixy="0" ixz="0" iyy="4e-08" iyz="0" izz="4e-08"/>
+    </inertial>
+  </link>
+
+  <gazebo reference="back_pitch_link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <joint name="back_pitch_joint" type="continuous">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <parent link="back_roll_link" />
+    <child link="back_pitch_link" />
+    <axis xyz="0 1 0" />
+    <limit effort="1000.0" velocity="100.0" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+
+
+    <!--Estrutura para base do LIDAR-->
+
+  <!--Struct 1-->
+  <joint name="struct1_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="struct1_link"/>
+    <origin xyz="0.0 0.0 0.05"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <link name="struct1_link">
+    <visual>
+      <geometry>
+          <box size="0.01 0.01 0.038"/>
+      </geometry>
+    </visual>
+
+
+    <collision>
+      <geometry>
+        <box size="0.01 0.01 0.038"/>
+      </geometry>
+    </collision>
+
+
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+
+
+  </link>
+
+  <!--Struct 2-->
+  <joint name="struct2_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="struct2_link"/>
+    <origin xyz="-0.059 0.0115 0.05"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <link name="struct2_link">
+    <visual>
+      <geometry>
+          <box size="0.01 0.01 0.038"/>
+      </geometry>
+
+    </visual>
+
+
+    <collision>
+      <geometry>
+        <box size="0.01 0.01 0.038"/>
+      </geometry>
+    </collision>
+
+
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+
+
+  </link>
+
+  <!--Struct 3-->
+  <joint name="struct3_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="struct3_link"/>
+    <origin xyz="-0.059 -0.0115 0.05"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <link name="struct3_link">
+    <visual>
+      <geometry>
+          <box size="0.01 0.01 0.038"/>
+      </geometry>
+    </visual>
+
+
+    <collision>
+      <geometry>
+        <box size="0.01 0.01 0.038"/>
+      </geometry>
+    </collision>
+
+
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+
+
+  </link>
+
+  <!--Base do LIDAR-->
+  <joint name="lidarB_joint" type="fixed">
+    <parent link="struct1_link"/>
+    <child link="lidarB_link"/>
+    <origin xyz="-0.03 0.0 0.019"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <link name="lidarB_link">
+
+
+    <visual>
+      <geometry>
+          <box size="0.08 0.08 0.005"/>
+      </geometry>
+    </visual>
+
+
+    <collision>
+      <geometry>
+        <box size="0.08 0.08 0.005"/>
+      </geometry>
+    </collision>
+
+
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+  </link>
+
+  <!--LIDAR-->
+  <joint name="lidar_joint" type="fixed">
+    <parent link="lidarB_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0.0 0.0 0.020"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+
+  <link name="lidar_link">
+
+
+    <visual>
+      <geometry>
+        <mesh filename="/home/llagoeiro/Desktop/aprendendo_ros2/src/pacote_de_exemplos/meshes/sensors/rplidar.dae" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+
+
+    <collision>
+      <geometry>
+        <box size="0.05 0.05 0.030"/>
+      </geometry>
+    </collision>
+      
+    
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+
+  </link>
+
+  <!--Gyro-->
+  <joint name="gyro_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="gyro_link"/>
+    <origin xyz="-0.03 0.0 0.0325"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+
+
+  <link name="gyro_link">
+    <visual>
+      <geometry>
+          <box size="0.02 0.02 0.015"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+
+
+    <collision>
+      <geometry>
+        <box size="0.02 0.02 0.015"/>
+      </geometry>
+    </collision>
+      
+
+
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0008333333333333335" ixy="0" ixz="0" iyy="0.0008333333333333335" iyz="0" izz="0.0008333333333333335"/>
+    </inertial>
+  </link>
+
+
+  <!--Plugins-->
+
+  <!-- <gazebo>
+    <plugin name="joint" filename="libgazebo_ros_joint_state_publisher.so">
+    <ros>
+        <remapping>~/out:=joint_states</remapping>
+    </ros>
+    <updateRate>30</updateRate>
+
+    <joint_name>joint_left_wheel_f</joint_name>
+    <joint_name>joint_right_wheel_f</joint_name>
+    <joint_name>joint_left_wheel</joint_name>
+    <joint_name>joint_right_wheel</joint_name>
+    <joint_name>joint_diff_wheel_L</joint_name>
+    <joint_name>joint_diff_wheel_R</joint_name>
+    <joint_name>front_yaw_joint</joint_name>
+    <joint_name>back_yaw_joint</joint_name>
+    <joint_name>front_roll_joint</joint_name>
+    <joint_name>back_roll_joint</joint_name>
+    <joint_name>front_pitch_joint</joint_name>
+    <joint_name>back_pitch_joint</joint_name>
+    <joint_name>base_footprint_joint</joint_name>
+    
+
+
+    
+
+    </plugin>
+  </gazebo> -->
+
+
+  <gazebo reference="lidar_link">
+    <sensor type="ray" name="head_hokuyo_sensor">
+        <visualize> </visualize>
+        <updateRate>30</updateRate>
+        <ray>
+            <scan>
+              <horizontal>
+                <samples>920</samples>
+                <resolution>1</resolution>
+                <min_angle>-3.14</min_angle>
+                <max_angle>3.14</max_angle>
+              </horizontal>
+            </scan>
+            <range>
+              <min>0.1</min>
+              <max>40.0</max>
+              <resolution>0.05</resolution>
+            </range>
+            <noise>
+              <type>gaussian</type>
+              <mean>0.0</mean>
+              <stddev>0.01</stddev>
+            </noise>
+        </ray>
+
+        <plugin name="gazebo_ros_head_hokuyo_controlle" filename="libgazebo_ros_ray_sensor.so" >
+        <ros>
+          <remapping>~/out:=/scan</remapping>                                                               
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="gyro_link">
+    <gravity>true</gravity>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>imu</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <ros>
+          <remapping>~/out:=/imu</remapping>                                                               
+        </ros>
+        <output_type>sensor_msgs/Imu</output_type>
+        <bodyName>imu_link</bodyName>
+        <updateRateHZ>10.0</updateRateHZ>
+        <gaussianNoise>0.0</gaussianNoise>
+        <xyzOffset>0 0 0</xyzOffset>
+        <rpyOffset>0 0 0</rpyOffset>
+        <frameName>imu_link</frameName>
+        <initialOrientationAsReference>false</initialOrientationAsReference>
+      </plugin>
+      <pose>0 0 0 0 0 0</pose>
+    </sensor>
+  </gazebo>  
+
+
+  <!-- <gazebo>
+    <plugin name="SkidSteerDrivePlugin"
+            filename="libgazebo_ros_skid_steer_drive.so">
+        <dds_domain_id>0</dds_domain_id>
+        <topic_name_twist>cmd_vel</topic_name_twist>
+        <topic_name_odometry>odom</topic_name_odometry>
+        <topic_name_joint>joint_states</topic_name_joint>
+        <right_front_joint>joint_right_wheel_f</right_front_joint>
+        <right_rear_joint>joint_right_wheel</right_rear_joint>
+        <left_front_joint>joint_left_wheel_f</left_front_joint>
+        <left_rear_joint>joint_left_wheel</left_rear_joint>
+        <wheel_separation>0.4</wheel_separation>
+        <wheel_diameter>0.15</wheel_diameter>
+        <wheel_torque>5.0</wheel_torque>
+        <update_rate>2</update_rate>
+        <covariance_x>0.0001</covariance_x>
+        <covariance_y>0.0001</covariance_y>
+        <covariance_yaw>0.01</covariance_yaw>
+    </plugin>
+  </gazebo> -->
+
+    <!-- Differential drive -->
+  <gazebo>
+    <plugin filename="libgazebo_ros_diff_drive.so" name="differential_drive_controller">
+
+      <updateRate>30</updateRate>
+
+      <!-- wheels -->
+      <left_joint>joint_diff_wheel_L</left_joint>
+      <right_joint>joint_diff_wheel_R</right_joint>
+
+      <!-- kinematics -->
+      <wheel_separation>0.166</wheel_separation>
+      <wheel_diameter>0.07</wheel_diameter>
+
+      <!-- limits -->
+      <max_wheel_torque>1.0</max_wheel_torque>
+      <max_wheel_acceleration>2.0</max_wheel_acceleration>
+
+
+      <!-- output -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+
+      <odometry_frame>odom</odometry_frame>
+      <robotBaseFrame>base_link</robotBaseFrame>
+
+    </plugin>
+  </gazebo>
+
+
+
+</robot>

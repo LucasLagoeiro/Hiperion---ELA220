@@ -1,0 +1,6 @@
+[console_scripts]
+checkpoints = gazebo.checkpoints:main
+no_com_classe = gazebo.no_com_classe:main
+no_simples = gazebo.no_simples:main
+r2d2 = gazebo.r2d2:main
+

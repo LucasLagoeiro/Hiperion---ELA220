@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000405] (-) JobUnselected: {'identifier': 'mpu6050driver'}
+[0.000438] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000461] (gazebo) JobQueued: {'identifier': 'gazebo', 'dependencies': OrderedDict()}
+[0.000490] (gazebo) JobStarted: {'identifier': 'gazebo'}
+[0.099054] (-) TimerEvent: {}
+[0.199486] (-) TimerEvent: {}
+[0.299865] (-) TimerEvent: {}
+[0.400445] (-) TimerEvent: {}
+[0.501070] (-) TimerEvent: {}
+[0.601738] (-) TimerEvent: {}
+[0.702091] (-) TimerEvent: {}
+[0.798309] (gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gazebo', 'build', '--build-base', '/home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build', 'install', '--record', '/home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'llagoeiro', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/llagoeiro', 'OLDPWD': '/home/llagoeiro/Desktop/Hiperion-ELA220/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1483', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d908d7acc6ddb3c2dfa48fe566166cd6', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'llagoeiro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'llagoeiro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/llagoeiro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/llagoeiro:@/tmp/.ICE-unix/1483,unix/llagoeiro:/tmp/.ICE-unix/1483', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03aa510d_aff0_4f74_976d_41315b195345', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.64DVL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.159', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d908d7acc6ddb3c2dfa48fe566166cd6', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/prefix_override:/home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.802156] (-) TimerEvent: {}
+[0.902448] (-) TimerEvent: {}
+[1.002909] (-) TimerEvent: {}
+[1.071332] (gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[1.071908] (gazebo) StdoutLine: {'line': b'creating ../../build/gazebo/gazebo.egg-info\n'}
+[1.072178] (gazebo) StdoutLine: {'line': b'writing ../../build/gazebo/gazebo.egg-info/PKG-INFO\n'}
+[1.072417] (gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/gazebo/gazebo.egg-info/dependency_links.txt\n'}
+[1.072672] (gazebo) StdoutLine: {'line': b'writing entry points to ../../build/gazebo/gazebo.egg-info/entry_points.txt\n'}
+[1.072820] (gazebo) StdoutLine: {'line': b'writing requirements to ../../build/gazebo/gazebo.egg-info/requires.txt\n'}
+[1.072932] (gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/gazebo/gazebo.egg-info/top_level.txt\n'}
+[1.073037] (gazebo) StdoutLine: {'line': b"writing manifest file '../../build/gazebo/gazebo.egg-info/SOURCES.txt'\n"}
+[1.075056] (gazebo) StdoutLine: {'line': b"reading manifest file '../../build/gazebo/gazebo.egg-info/SOURCES.txt'\n"}
+[1.077551] (gazebo) StdoutLine: {'line': b"writing manifest file '../../build/gazebo/gazebo.egg-info/SOURCES.txt'\n"}
+[1.077992] (gazebo) StdoutLine: {'line': b'running build\n'}
+[1.078189] (gazebo) StdoutLine: {'line': b'running build_py\n'}
+[1.078326] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build\n'}
+[1.078455] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib\n'}
+[1.078647] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.078765] (gazebo) StdoutLine: {'line': b'copying gazebo/no_com_classe.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.078886] (gazebo) StdoutLine: {'line': b'copying gazebo/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.079008] (gazebo) StdoutLine: {'line': b'copying gazebo/robot.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.079127] (gazebo) StdoutLine: {'line': b'copying gazebo/no_simples.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.079245] (gazebo) StdoutLine: {'line': b'copying gazebo/r2d2.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.079428] (gazebo) StdoutLine: {'line': b'copying gazebo/checkpoints.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo\n'}
+[1.079543] (gazebo) StdoutLine: {'line': b'running install\n'}
+[1.079656] (gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[1.080225] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.080406] (gazebo) StdoutLine: {'line': b'copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/no_com_classe.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.080579] (gazebo) StdoutLine: {'line': b'copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.080752] (gazebo) StdoutLine: {'line': b'copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/robot.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.080880] (gazebo) StdoutLine: {'line': b'copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/no_simples.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.081050] (gazebo) StdoutLine: {'line': b'copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/r2d2.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.081223] (gazebo) StdoutLine: {'line': b'copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/build/lib/gazebo/checkpoints.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo\n'}
+[1.081497] (gazebo) StdoutLine: {'line': b'byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/no_com_classe.py to no_com_classe.cpython-310.pyc\n'}
+[1.082165] (gazebo) StdoutLine: {'line': b'byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/__init__.py to __init__.cpython-310.pyc\n'}
+[1.082373] (gazebo) StdoutLine: {'line': b'byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/robot.py to robot.cpython-310.pyc\n'}
+[1.083055] (gazebo) StdoutLine: {'line': b'byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/no_simples.py to no_simples.cpython-310.pyc\n'}
+[1.083435] (gazebo) StdoutLine: {'line': b'byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/r2d2.py to r2d2.cpython-310.pyc\n'}
+[1.084337] (gazebo) StdoutLine: {'line': b'byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo/checkpoints.py to checkpoints.cpython-310.pyc\n'}
+[1.085214] (gazebo) StdoutLine: {'line': b'running install_data\n'}
+[1.085394] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index\n'}
+[1.085582] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index/resource_index\n'}
+[1.085784] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index/resource_index/packages\n'}
+[1.085975] (gazebo) StdoutLine: {'line': b'copying resource/gazebo -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/ament_index/resource_index/packages\n'}
+[1.086158] (gazebo) StdoutLine: {'line': b'copying package.xml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo\n'}
+[1.086311] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config\n'}
+[1.086445] (gazebo) StdoutLine: {'line': b'copying config/Default.perspective -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/\n'}
+[1.086579] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map\n'}
+[1.086777] (gazebo) StdoutLine: {'line': b'copying config/map/checkpoints.json -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map\n'}
+[1.086911] (gazebo) StdoutLine: {'line': b'copying config/map/map2.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map\n'}
+[1.087074] (gazebo) StdoutLine: {'line': b'copying config/map/map.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map\n'}
+[1.087229] (gazebo) StdoutLine: {'line': b'copying config/map/map.pgm -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map\n'}
+[1.087367] (gazebo) StdoutLine: {'line': b'copying config/map/map2.pgm -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/map\n'}
+[1.087500] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz\n'}
+[1.087681] (gazebo) StdoutLine: {'line': b'copying config/rviz/navigation.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz\n'}
+[1.087877] (gazebo) StdoutLine: {'line': b'copying config/rviz/mapping_slam_toolbox.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz\n'}
+[1.088011] (gazebo) StdoutLine: {'line': b'copying config/rviz/mapping_cartographer.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz\n'}
+[1.088232] (gazebo) StdoutLine: {'line': b'copying config/rviz/robot.rviz -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/rviz\n'}
+[1.088366] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav\n'}
+[1.088501] (gazebo) StdoutLine: {'line': b'copying config/nav/nav2_params.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav\n'}
+[1.088634] (gazebo) StdoutLine: {'line': b'copying config/nav/cartographer.lua -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav\n'}
+[1.088768] (gazebo) StdoutLine: {'line': b'copying config/nav/slam_toolbox.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav\n'}
+[1.088899] (gazebo) StdoutLine: {'line': b'copying config/nav/ekf.yaml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/config/nav\n'}
+[1.089033] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch\n'}
+[1.089314] (gazebo) StdoutLine: {'line': b'copying launch/mapping_slam_toolbox.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.089503] (gazebo) StdoutLine: {'line': b'copying launch/load.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.089636] (gazebo) StdoutLine: {'line': b'copying launch/exemplo.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.089770] (gazebo) StdoutLine: {'line': b'copying launch/mapping_cartographer.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.089902] (gazebo) StdoutLine: {'line': b'copying launch/turtlebot.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.090143] (gazebo) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.090278] (gazebo) StdoutLine: {'line': b'copying launch/simulation.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.090468] (gazebo) StdoutLine: {'line': b'copying launch/navigation2.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.090609] (gazebo) StdoutLine: {'line': b'copying launch/load_turtlebot.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.090744] (gazebo) StdoutLine: {'line': b'copying launch/navigation.launch.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/launch/\n'}
+[1.090877] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation\n'}
+[1.091017] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds\n'}
+[1.091276] (gazebo) StdoutLine: {'line': b'copying simulation/worlds/simple_room.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds\n'}
+[1.091481] (gazebo) StdoutLine: {'line': b'copying simulation/worlds/empty.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds\n'}
+[1.091626] (gazebo) StdoutLine: {'line': b'copying simulation/worlds/simple_room_with_fixed_boxes.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds\n'}
+[1.091769] (gazebo) StdoutLine: {'line': b'copying simulation/worlds/simple_room_with_random_boxes.world -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/worlds\n'}
+[1.091987] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models\n'}
+[1.092188] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/simple_room\n'}
+[1.092332] (gazebo) StdoutLine: {'line': b'copying simulation/models/simple_room/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/simple_room\n'}
+[1.092538] (gazebo) StdoutLine: {'line': b'copying simulation/models/simple_room/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/simple_room\n'}
+[1.092681] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/r2d2\n'}
+[1.092889] (gazebo) StdoutLine: {'line': b'copying simulation/models/r2d2/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/r2d2\n'}
+[1.093026] (gazebo) StdoutLine: {'line': b'copying simulation/models/r2d2/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/r2d2\n'}
+[1.093161] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/box\n'}
+[1.093428] (gazebo) StdoutLine: {'line': b'copying simulation/models/box/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/box\n'}
+[1.093691] (gazebo) StdoutLine: {'line': b'copying simulation/models/box/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/box\n'}
+[1.093790] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/wood_square\n'}
+[1.093872] (gazebo) StdoutLine: {'line': b'copying simulation/models/wood_square/model.config -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/wood_square\n'}
+[1.093948] (gazebo) StdoutLine: {'line': b'copying simulation/models/wood_square/model.sdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/simulation/models/wood_square\n'}
+[1.094024] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf\n'}
+[1.094100] (gazebo) StdoutLine: {'line': b'copying urdf/myfirstrobot.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/\n'}
+[1.094176] (gazebo) StdoutLine: {'line': b'copying urdf/robot.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/\n'}
+[1.094252] (gazebo) StdoutLine: {'line': b'copying urdf/sam_bot_description.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/\n'}
+[1.094324] (gazebo) StdoutLine: {'line': b'copying urdf/myurdf.urdf -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/\n'}
+[1.094395] (gazebo) StdoutLine: {'line': b'copying urdf/myfirstrobot.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/\n'}
+[1.094469] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros\n'}
+[1.094558] (gazebo) StdoutLine: {'line': b'copying urdf/macros/link_geometry.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros\n'}
+[1.094631] (gazebo) StdoutLine: {'line': b'copying urdf/macros/properties.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros\n'}
+[1.094703] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts\n'}
+[1.094776] (gazebo) StdoutLine: {'line': b'copying urdf/macros/parts/head.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts\n'}
+[1.094854] (gazebo) StdoutLine: {'line': b'copying urdf/macros/parts/wheel.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts\n'}
+[1.094926] (gazebo) StdoutLine: {'line': b'copying urdf/macros/parts/base.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts\n'}
+[1.094997] (gazebo) StdoutLine: {'line': b'copying urdf/macros/parts/leg.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/macros/parts\n'}
+[1.095069] (gazebo) StdoutLine: {'line': b'creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation\n'}
+[1.095141] (gazebo) StdoutLine: {'line': b'copying urdf/simulation/imu.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation\n'}
+[1.095211] (gazebo) StdoutLine: {'line': b'copying urdf/simulation/gazebo_base.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation\n'}
+[1.095279] (gazebo) StdoutLine: {'line': b'copying urdf/simulation/gazebo_camera.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation\n'}
+[1.095349] (gazebo) StdoutLine: {'line': b'copying urdf/simulation/gazebo_laser.urdf.xacro -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/share/gazebo/urdf/simulation\n'}
+[1.095665] (gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.095793] (gazebo) StdoutLine: {'line': b'Copying ../../build/gazebo/gazebo.egg-info to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/python3.10/site-packages/gazebo-0.0.0-py3.10.egg-info\n'}
+[1.096637] (gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.103109] (-) TimerEvent: {}
+[1.128542] (gazebo) StdoutLine: {'line': b'Installing checkpoints script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo\n'}
+[1.128875] (gazebo) StdoutLine: {'line': b'Installing no_com_classe script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo\n'}
+[1.129064] (gazebo) StdoutLine: {'line': b'Installing no_simples script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo\n'}
+[1.129206] (gazebo) StdoutLine: {'line': b'Installing r2d2 script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/gazebo/lib/gazebo\n'}
+[1.129334] (gazebo) StdoutLine: {'line': b"writing list of installed files to '/home/llagoeiro/Desktop/Hiperion-ELA220/build/gazebo/install.log'\n"}
+[1.161887] (gazebo) CommandEnded: {'returncode': 0}
+[1.173778] (gazebo) JobEnded: {'identifier': 'gazebo', 'rc': 0}
+[1.174284] (-) EventReactorShutdown: {}
