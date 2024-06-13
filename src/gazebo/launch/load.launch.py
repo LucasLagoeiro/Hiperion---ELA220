@@ -28,7 +28,7 @@ def generate_launch_description():
                                       description='Absolute path to robot urdf file')
     rviz_arg = DeclareLaunchArgument(name='rvizconfig', default_value=str(default_rviz_config_path),
                                      description='Absolute path to rviz config file')
-    use_sim_time_arg = DeclareLaunchArgument(name='use_sim_time', default_value='true',
+    use_sim_time_arg = DeclareLaunchArgument(name='use_sim_time', default_value='false',
                                             description='Flag to enable use_sim_time')
 
     robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]),
@@ -133,8 +133,8 @@ def generate_launch_description():
         # joint_state_publisher_node,
         # joint_state_publisher_gui_node,
         robot_state_publisher_node,
-        spawn_entity,
+        # spawn_entity,
         # robot_localization_node,
         rviz_node,
-        teleop
+        # teleop
     ])

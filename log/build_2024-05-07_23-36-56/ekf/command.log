@@ -1,0 +1,2 @@
+Invoking command in '/home/llagoeiro/Desktop/Hiperion-ELA220/build/ekf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/llagoeiro/Desktop/Hiperion-ELA220/src/ekf -DCMAKE_INSTALL_PREFIX=/home/llagoeiro/Desktop/Hiperion-ELA220/install/ekf
+Invoked command in '/home/llagoeiro/Desktop/Hiperion-ELA220/build/ekf' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/llagoeiro/Desktop/Hiperion-ELA220/src/ekf -DCMAKE_INSTALL_PREFIX=/home/llagoeiro/Desktop/Hiperion-ELA220/install/ekf

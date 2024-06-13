@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:42:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "CMakeLists.txt".
+
+[0m

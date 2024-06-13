@@ -6,6 +6,7 @@ from launch_ros.actions import Node
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 
+
 def generate_launch_description():
 
     log_level = DeclareLaunchArgument(
@@ -24,7 +25,7 @@ def generate_launch_description():
     robot = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([get_package_share_directory('gazebo'), '/launch/load.launch.py']),
            launch_arguments={
-                'rvizconfig': [get_package_share_directory('gazebo'), '/config/rviz/mapping_cartographer.rviz'],
+                'rvizconfig': [get_package_share_directory('gazebo'), '/config/rviz/mapping_cartographer.rviz']
             }.items(),
     )
 
@@ -38,7 +39,7 @@ def generate_launch_description():
             ('imu', 'imu'),
         ],
         parameters=[{
-            'use_sim_time': True
+            'use_sim_time': False
         }],
         arguments=[
             '-configuration_directory', [get_package_share_directory('gazebo'), '/config/nav/'],
@@ -53,7 +54,7 @@ def generate_launch_description():
         name='occupancy_grid_node',
         output='log',
         parameters=[{
-            'use_sim_time': True
+            'use_sim_time': False
         }],
         arguments=[
             '-resolution', '0.05', 
@@ -64,7 +65,7 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     ld.add_action(log_level)
-    ld.add_action(simulation)
+    # ld.add_action(simulation)
     ld.add_action(robot)
     ld.add_action(cartographer)
     ld.add_action(occupacy_grid)
