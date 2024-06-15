@@ -24,7 +24,7 @@ class Ros2Serial(Node):
         self.get_logger().set_level(LoggingSeverity.INFO)
         
         self.declare_parameter('baud_rate', 115200)
-        self.declare_parameter('serial_port', '/dev/ttyACM0') # Substitua pelo nome da porta correta - '/dev/ttyACM0'  ou '/dev/ttyUSB0'
+        self.declare_parameter('serial_port', '/dev/ttyUSB1') # Substitua pelo nome da porta correta - '/dev/ttyACM0'  ou '/dev/ttyUSB0'
 
         self.baud_rate = self.get_parameter('baud_rate').value
         self.serial_port = self.get_parameter('serial_port').value

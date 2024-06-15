@@ -19,7 +19,7 @@ void definePins(){
   pinMode(10, OUTPUT);
 }
 
-float diffRobot(int velX, int velZ, int velMotors []){
+float diffRobot(int velX, int velZ, float velMotors []){
   float vel = velX;
   float omega = velZ;
 

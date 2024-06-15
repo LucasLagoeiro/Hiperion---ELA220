@@ -1,6 +1,7 @@
 //#include "ESP32Encoder.h"
 #include <ArduinoJson.h>
 #include "Pins.h"
+#include "MotorSpeedControl.h"
 
 #define BUFFER_SIZE_RECEIVER 300
 #define END_OF_JSON_CHAR '}'
@@ -15,7 +16,7 @@ int buffer_index = 0; // Indicador de posição no buffer
 
 long encoder_timer = 0;
 
-int velMotors[2] = {0,0};  // {Right , Left}
+float velMotors[2] = {0,0};  // {Right , Left}
 
 
 //ESP32Encoder Encoder1;
@@ -89,7 +90,7 @@ void clearEncoders() {
 
 void setup() {
   Serial.begin(115200);
-  definePins();
+  enablePins();
   
 
   // use pin 19 and 18 for the first encoder
@@ -134,30 +135,34 @@ void loop() {
     //-------------------------------------------------------------------------------
     
 //
-    array_encoders.add(100*vel.linear.x);
-    array_encoders.add(100*vel.angular.z);
+
+
+    controlVelocity(20.0,0.0);
+
+    array_encoders.add(1);
+    array_encoders.add(1);
 
     
   
 //    diffRobot(vel.linear.x,vel.angular.z,velMotors);
-    if(vel.linear.x > 0.4){
-      goFoward();
+    // if(vel.linear.x > 0.4){
+    //   goFoward();
 
 
-    }
-    else if(vel.linear.x < 0){
-      goBackward();
-    }
+    // }
+    // else if(vel.linear.x < 0){
+    //   goBackward();
+    // }
 
-    else if(vel.angular.z < 0){
-      goRight();
-    }
-    else if(vel.angular.z > 0.9){
-      goLeft();
-    }
-    else{
-      stopRobot();
-    }
+    // else if(vel.angular.z < 0){
+    //   goRight();
+    // }
+    // else if(vel.angular.z > 0.9){
+    //   goLeft();
+    // }
+    // else{
+    //   stopRobot();
+    // }
 
       // Serializa e envia o documento JSON
     serializeJson(doc, Serial);
