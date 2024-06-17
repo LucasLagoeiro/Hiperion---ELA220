@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001538] (manip_pkg) JobQueued: {'identifier': 'manip_pkg', 'dependencies': OrderedDict()}
+[0.002147] (manip_pkg) JobStarted: {'identifier': 'manip_pkg'}
+[0.099095] (-) TimerEvent: {}
+[0.200488] (-) TimerEvent: {}
+[0.301210] (-) TimerEvent: {}
+[0.401882] (-) TimerEvent: {}
+[0.502543] (-) TimerEvent: {}
+[0.603193] (-) TimerEvent: {}
+[0.703872] (-) TimerEvent: {}
+[0.804478] (-) TimerEvent: {}
+[0.905112] (-) TimerEvent: {}
+[1.005797] (-) TimerEvent: {}
+[1.106455] (-) TimerEvent: {}
+[1.207358] (-) TimerEvent: {}
+[1.308351] (-) TimerEvent: {}
+[1.409143] (-) TimerEvent: {}
+[1.509889] (-) TimerEvent: {}
+[1.610565] (-) TimerEvent: {}
+[1.711232] (-) TimerEvent: {}
+[1.811891] (-) TimerEvent: {}
+[1.912596] (-) TimerEvent: {}
+[2.013198] (-) TimerEvent: {}
+[2.113833] (-) TimerEvent: {}
+[2.214482] (-) TimerEvent: {}
+[2.315130] (-) TimerEvent: {}
+[2.415794] (-) TimerEvent: {}
+[2.516429] (-) TimerEvent: {}
+[2.617384] (-) TimerEvent: {}
+[2.695790] (manip_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/manip_pkg', 'build', '--build-base', '/home/wall-e/Desktop/manip_ws/build/manip_pkg/build', 'install', '--record', '/home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wall-e/Desktop/manip_ws/src/manip_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wall-e', 'SSH_CLIENT': '172.20.10.13 53470 33556', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wall-e', 'OLDPWD': '/home/wall-e/Desktop/manip_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/wall-e/Desktop/manip_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wall-e', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wall-e/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/wall-e/Desktop/manip_ws/install/manip_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/wall-e/Desktop/manip_ws/build/manip_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.13 53470 172.20.10.14 33556', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.717542] (-) TimerEvent: {}
+[2.818360] (-) TimerEvent: {}
+[2.919089] (-) TimerEvent: {}
+[3.019806] (-) TimerEvent: {}
+[3.120508] (-) TimerEvent: {}
+[3.221197] (-) TimerEvent: {}
+[3.321890] (-) TimerEvent: {}
+[3.422559] (-) TimerEvent: {}
+[3.523208] (-) TimerEvent: {}
+[3.623931] (-) TimerEvent: {}
+[3.724638] (-) TimerEvent: {}
+[3.782356] (manip_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.785244] (manip_pkg) StdoutLine: {'line': b'writing ../../build/manip_pkg/manip_pkg.egg-info/PKG-INFO\n'}
+[3.786362] (manip_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/manip_pkg/manip_pkg.egg-info/dependency_links.txt\n'}
+[3.787371] (manip_pkg) StdoutLine: {'line': b'writing entry points to ../../build/manip_pkg/manip_pkg.egg-info/entry_points.txt\n'}
+[3.788191] (manip_pkg) StdoutLine: {'line': b'writing requirements to ../../build/manip_pkg/manip_pkg.egg-info/requires.txt\n'}
+[3.788855] (manip_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/manip_pkg/manip_pkg.egg-info/top_level.txt\n'}
+[3.797302] (manip_pkg) StdoutLine: {'line': b"reading manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'\n"}
+[3.798763] (manip_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.801509] (manip_pkg) StdoutLine: {'line': b"writing manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'\n"}
+[3.802161] (manip_pkg) StdoutLine: {'line': b'running build\n'}
+[3.802623] (manip_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.803117] (manip_pkg) StdoutLine: {'line': b'copying manip_pkg/main_node.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg\n'}
+[3.806944] (manip_pkg) StdoutLine: {'line': b'running install\n'}
+[3.808196] (manip_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.811847] (manip_pkg) StdoutLine: {'line': b'copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/main_node.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg\n'}
+[3.816151] (manip_pkg) StdoutLine: {'line': b'byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/main_node.py to main_node.cpython-310.pyc\n'}
+[3.819866] (manip_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.820471] (manip_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.824792] (-) TimerEvent: {}
+[3.826827] (manip_pkg) StdoutLine: {'line': b"removing '/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.828923] (manip_pkg) StdoutLine: {'line': b'Copying ../../build/manip_pkg/manip_pkg.egg-info to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg-0.0.0-py3.10.egg-info\n'}
+[3.848821] (manip_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.924964] (-) TimerEvent: {}
+[3.926431] (manip_pkg) StdoutLine: {'line': b'Installing main_node script to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/manip_pkg\n'}
+[3.928808] (manip_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log'\n"}
+[4.025272] (-) TimerEvent: {}
+[4.049783] (manip_pkg) CommandEnded: {'returncode': 0}
+[4.118239] (manip_pkg) JobEnded: {'identifier': 'manip_pkg', 'rc': 0}
+[4.120846] (-) EventReactorShutdown: {}

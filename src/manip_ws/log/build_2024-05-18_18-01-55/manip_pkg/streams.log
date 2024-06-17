@@ -1,0 +1,25 @@
+[2.697s] Invoking command in '/home/wall-e/Desktop/manip_ws/src/manip_pkg': PYTHONPATH=/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manip_pkg build --build-base /home/wall-e/Desktop/manip_ws/build/manip_pkg/build install --record /home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log --single-version-externally-managed install_data
+[3.780s] running egg_info
+[3.783s] writing ../../build/manip_pkg/manip_pkg.egg-info/PKG-INFO
+[3.784s] writing dependency_links to ../../build/manip_pkg/manip_pkg.egg-info/dependency_links.txt
+[3.785s] writing entry points to ../../build/manip_pkg/manip_pkg.egg-info/entry_points.txt
+[3.786s] writing requirements to ../../build/manip_pkg/manip_pkg.egg-info/requires.txt
+[3.787s] writing top-level names to ../../build/manip_pkg/manip_pkg.egg-info/top_level.txt
+[3.795s] reading manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[3.797s] adding license file 'LICENSE'
+[3.799s] writing manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[3.800s] running build
+[3.800s] running build_py
+[3.801s] copying manip_pkg/main_node.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg
+[3.805s] running install
+[3.806s] running install_lib
+[3.810s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/main_node.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[3.814s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/main_node.py to main_node.cpython-310.pyc
+[3.818s] running install_data
+[3.818s] running install_egg_info
+[3.825s] removing '/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.827s] Copying ../../build/manip_pkg/manip_pkg.egg-info to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg-0.0.0-py3.10.egg-info
+[3.847s] running install_scripts
+[3.924s] Installing main_node script to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/manip_pkg
+[3.927s] writing list of installed files to '/home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log'
+[4.048s] Invoked command in '/home/wall-e/Desktop/manip_ws/src/manip_pkg' returned '0': PYTHONPATH=/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manip_pkg build --build-base /home/wall-e/Desktop/manip_ws/build/manip_pkg/build install --record /home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log --single-version-externally-managed install_data

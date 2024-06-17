@@ -1,0 +1,19 @@
+[3.163s] Invoking command in '/home/wall-e/Desktop/manip_ws/build/manip_pkg': PYTHONPATH=/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/wall-e/Desktop/manip_ws/build/manip_pkg/build --no-deps symlink_data
+[4.492s] running develop
+[4.497s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.497s]   warnings.warn(
+[5.378s] running egg_info
+[5.378s] writing manip_pkg.egg-info/PKG-INFO
+[5.379s] writing dependency_links to manip_pkg.egg-info/dependency_links.txt
+[5.380s] writing entry points to manip_pkg.egg-info/entry_points.txt
+[5.381s] writing requirements to manip_pkg.egg-info/requires.txt
+[5.382s] writing top-level names to manip_pkg.egg-info/top_level.txt
+[5.390s] reading manifest file 'manip_pkg.egg-info/SOURCES.txt'
+[5.395s] writing manifest file 'manip_pkg.egg-info/SOURCES.txt'
+[5.401s] running build_ext
+[5.401s] Creating /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip-pkg.egg-link (link to .)
+[5.405s] Installing main_node script to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/manip_pkg
+[5.407s] 
+[5.407s] Installed /home/wall-e/Desktop/manip_ws/build/manip_pkg
+[5.407s] running symlink_data
+[5.570s] Invoked command in '/home/wall-e/Desktop/manip_ws/build/manip_pkg' returned '0': PYTHONPATH=/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/wall-e/Desktop/manip_ws/build/manip_pkg/build --no-deps symlink_data

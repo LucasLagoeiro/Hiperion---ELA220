@@ -1,0 +1,61 @@
+import rclpy
+# import the ROS2 python libraries
+from rclpy.node import Node
+# import the LaserScan module from sensor_msgs interface
+from geometry_msgs.msg import Twist
+# import Quality of Service library, to set the correct profile and reliability to read sensor data.
+from rclpy.qos import ReliabilityPolicy, QoSProfile
+from .submodules.robot import Robot
+import time
+
+
+class SimpleSubscriber(Node):
+
+    def __init__(self):
+        # Here you have the class constructor
+        # call super() in the constructor to initialize the Node object
+        # the parameter you pass is the node name
+        super().__init__('simple_subscriber')
+        # create the subscriber object
+        # in this case, the subscriptor will be subscribed on /scan topic with a queue size of 10 messages.
+        # use the LaserScan module for /scan topic
+        # send the received info to the listener_callback method.
+        qos_profile = QoSProfile(depth=50)
+        self.subscription_cmd_vel = self.create_subscription(
+            Twist,
+            '/cmd_vel',
+            self.listener_callback,
+            qos_profile)
+
+
+
+
+    def listener_callback(self, msg):
+        # print the log info in the terminal
+        self.robot = Robot()
+        self.get_logger().info('I receive1: "%s"' % str(msg.linear.x))
+        self.robot.set_all_joints_angle([90,90,90,90])
+        if(msg.linear.x < 0.5 and msg.linear.x > 0.4):
+            self.get_logger().info('Im here')
+            self.robot.set_all_joints_angle([60,10,190,90])
+            self.robot.set_all_joints_angle([60,10,190,0])
+            time.sleep(2)
+            self.robot.set_all_joints_angle([110,10,190,0])
+        
+
+
+def main(args=None):
+    # initialize the ROS communication
+    rclpy.init(args=args)
+    # declare the node constructor
+    simple_subscriber = SimpleSubscriber()
+    # pause the program execution, waits for a request to kill the node (ctrl+c)
+    rclpy.spin(simple_subscriber)
+    # Explicity destroy the node
+    simple_subscriber.destroy_node()
+    # shutdown the ROS communication
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

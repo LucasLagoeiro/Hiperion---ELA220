@@ -1,0 +1,63 @@
+[2.726s] Invoking command in '/home/wall-e/Desktop/manip_ws/src/manip_pkg': PYTHONPATH=/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manip_pkg build --build-base /home/wall-e/Desktop/manip_ws/build/manip_pkg/build install --record /home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log --single-version-externally-managed install_data
+[3.803s] running egg_info
+[3.805s] creating ../../build/manip_pkg/manip_pkg.egg-info
+[3.806s] writing ../../build/manip_pkg/manip_pkg.egg-info/PKG-INFO
+[3.807s] writing dependency_links to ../../build/manip_pkg/manip_pkg.egg-info/dependency_links.txt
+[3.807s] writing entry points to ../../build/manip_pkg/manip_pkg.egg-info/entry_points.txt
+[3.808s] writing requirements to ../../build/manip_pkg/manip_pkg.egg-info/requires.txt
+[3.808s] writing top-level names to ../../build/manip_pkg/manip_pkg.egg-info/top_level.txt
+[3.809s] writing manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[3.817s] reading manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[3.818s] adding license file 'LICENSE'
+[3.820s] writing manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[3.821s] running build
+[3.821s] running build_py
+[3.822s] creating /home/wall-e/Desktop/manip_ws/build/manip_pkg/build
+[3.823s] creating /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib
+[3.823s] creating /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg
+[3.824s] copying manip_pkg/main_node.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg
+[3.824s] copying manip_pkg/__init__.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg
+[3.826s] creating /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.827s] copying manip_pkg/submodules/ui_mainwindow.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.827s] copying manip_pkg/submodules/robot.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.828s] copying manip_pkg/submodules/teste.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.829s] copying manip_pkg/submodules/thread.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.829s] copying manip_pkg/submodules/mainwindow.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.830s] copying manip_pkg/submodules/__init__.py -> /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules
+[3.832s] running install
+[3.833s] running install_lib
+[3.838s] creating /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[3.838s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/main_node.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[3.839s] creating /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.840s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules/ui_mainwindow.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.841s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules/robot.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.841s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules/teste.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.842s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules/thread.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.843s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules/mainwindow.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.844s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/submodules/__init__.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[3.845s] copying /home/wall-e/Desktop/manip_ws/build/manip_pkg/build/lib/manip_pkg/__init__.py -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[3.848s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/main_node.py to main_node.cpython-310.pyc
+[3.850s]   File "/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/main_node.py", line 38
+[3.851s]     self.get_logger().info('Im here')
+[3.851s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.852s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[3.852s] 
+[3.853s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/ui_mainwindow.py to ui_mainwindow.cpython-310.pyc
+[3.869s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/robot.py to robot.cpython-310.pyc
+[3.869s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/teste.py to teste.cpython-310.pyc
+[3.870s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/thread.py to thread.cpython-310.pyc
+[3.870s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/mainwindow.py to mainwindow.cpython-310.pyc
+[3.881s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/__init__.py to __init__.cpython-310.pyc
+[3.881s] byte-compiling /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/__init__.py to __init__.cpython-310.pyc
+[3.882s] running install_data
+[3.883s] creating /home/wall-e/Desktop/manip_ws/install/manip_pkg/share/ament_index
+[3.883s] creating /home/wall-e/Desktop/manip_ws/install/manip_pkg/share/ament_index/resource_index
+[3.884s] creating /home/wall-e/Desktop/manip_ws/install/manip_pkg/share/ament_index/resource_index/packages
+[3.884s] copying resource/manip_pkg -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/share/ament_index/resource_index/packages
+[3.885s] copying package.xml -> /home/wall-e/Desktop/manip_ws/install/manip_pkg/share/manip_pkg
+[3.885s] running install_egg_info
+[3.886s] Copying ../../build/manip_pkg/manip_pkg.egg-info to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg-0.0.0-py3.10.egg-info
+[3.890s] running install_scripts
+[3.978s] Installing main_node script to /home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/manip_pkg
+[3.981s] writing list of installed files to '/home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log'
+[4.111s] Invoked command in '/home/wall-e/Desktop/manip_ws/src/manip_pkg' returned '0': PYTHONPATH=/home/wall-e/Desktop/manip_ws/build/manip_pkg/prefix_override:/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manip_pkg build --build-base /home/wall-e/Desktop/manip_ws/build/manip_pkg/build install --record /home/wall-e/Desktop/manip_ws/build/manip_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/wall-e/Desktop/manip_ws/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/main_node.py", line 38
+    self.get_logger().info('Im here')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
