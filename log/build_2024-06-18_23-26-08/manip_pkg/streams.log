@@ -1,0 +1,58 @@
+[0.631s] Invoking command in '/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg': PYTHONPATH=/home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/prefix_override:/home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manip_pkg build --build-base /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build install --record /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/install.log --single-version-externally-managed install_data
+[0.782s] running egg_info
+[0.782s] creating ../../build/manip_pkg/manip_pkg.egg-info
+[0.782s] writing ../../build/manip_pkg/manip_pkg.egg-info/PKG-INFO
+[0.783s] writing dependency_links to ../../build/manip_pkg/manip_pkg.egg-info/dependency_links.txt
+[0.783s] writing entry points to ../../build/manip_pkg/manip_pkg.egg-info/entry_points.txt
+[0.783s] writing requirements to ../../build/manip_pkg/manip_pkg.egg-info/requires.txt
+[0.783s] writing top-level names to ../../build/manip_pkg/manip_pkg.egg-info/top_level.txt
+[0.783s] writing manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[0.784s] reading manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[0.784s] adding license file 'LICENSE'
+[0.784s] writing manifest file '../../build/manip_pkg/manip_pkg.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.785s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build
+[0.785s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib
+[0.785s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg
+[0.785s] copying manip_pkg/main_node.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg
+[0.785s] copying manip_pkg/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg
+[0.785s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.785s] copying manip_pkg/submodules/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.785s] copying manip_pkg/submodules/robot.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.785s] copying manip_pkg/submodules/ui_mainwindow.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.785s] copying manip_pkg/submodules/teste.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.785s] copying manip_pkg/submodules/thread.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.786s] copying manip_pkg/submodules/mainwindow.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules
+[0.786s] running install
+[0.786s] running install_lib
+[0.786s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[0.786s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/main_node.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[0.786s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.786s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.786s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules/robot.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.786s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules/ui_mainwindow.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.786s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules/teste.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.787s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules/thread.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.787s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/submodules/mainwindow.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules
+[0.787s] copying /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build/lib/manip_pkg/__init__.py -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg
+[0.787s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/main_node.py to main_node.cpython-310.pyc
+[0.787s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/__init__.py to __init__.cpython-310.pyc
+[0.787s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/robot.py to robot.cpython-310.pyc
+[0.788s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/ui_mainwindow.py to ui_mainwindow.cpython-310.pyc
+[0.789s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/teste.py to teste.cpython-310.pyc
+[0.789s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/thread.py to thread.cpython-310.pyc
+[0.789s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/submodules/mainwindow.py to mainwindow.cpython-310.pyc
+[0.790s] byte-compiling /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg/__init__.py to __init__.cpython-310.pyc
+[0.790s] running install_data
+[0.790s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/share/ament_index
+[0.790s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/share/ament_index/resource_index
+[0.790s] creating /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/share/ament_index/resource_index/packages
+[0.791s] copying resource/manip_pkg -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/share/ament_index/resource_index/packages
+[0.791s] copying package.xml -> /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/share/manip_pkg
+[0.791s] running install_egg_info
+[0.792s] Copying ../../build/manip_pkg/manip_pkg.egg-info to /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages/manip_pkg-0.0.0-py3.10.egg-info
+[0.792s] running install_scripts
+[0.808s] Installing main_node script to /home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/manip_pkg
+[0.808s] writing list of installed files to '/home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/install.log'
+[0.826s] Invoked command in '/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg' returned '0': PYTHONPATH=/home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/prefix_override:/home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manip_pkg build --build-base /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/build install --record /home/llagoeiro/Desktop/Hiperion-ELA220/build/manip_pkg/install.log --single-version-externally-managed install_data

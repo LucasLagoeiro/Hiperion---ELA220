@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/wall-e/Desktop/daVinci/install/finalExam_pkg'
+sys.prefix = sys.exec_prefix = '/home/llagoeiro/Desktop/Hiperion-ELA220/install/finalExam_pkg'

@@ -18,7 +18,8 @@ class VelPublisher(Node):
         # create the publisher object
         # in this case, the publisher will publish on /cmd_vel Topic with a queue size of 10 messages.
         # use the Twist module for /cmd_vel Topic
-        self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
+        qos_profile = QoSProfile(depth=50)
+        self.publisher_ = self.create_publisher(Twist, 'cmd_vel', qos_profile)
         # define the timer period for 0.5 seconds
         timer_period = 0.5
         # create a timer sending two parameters:
@@ -31,13 +32,55 @@ class VelPublisher(Node):
         # create a Twist message
         msg = Twist()
         # define the linear x-axis velocity of /cmd_vel Topic parameter to 0.5
+        self.get_logger().info('Moving foward for 5 seconds')
         msg.linear.x = -40.0
-        # define the angular z-axis velocity of /cmd_vel Topic parameter to 0.5
         msg.angular.z = -40.0
-        # Publish the message to the Topic
         self.publisher_.publish(msg)
+        time.sleep(5.0)
+
+        self.get_logger().info('Turning left for 3 seconds')
+        msg.linear.x = 20.0
+        msg.angular.z = -20.0
+        self.publisher_.publish(msg)
+        time.sleep(3.0)
+
+        self.get_logger().info('Moving foward for 5 seconds')
+        msg.linear.x = -40.0
+        msg.angular.z = -40.0
+        self.publisher_.publish(msg)
+        time.sleep(5.0)
+
+        self.get_logger().info('Turning right for 3 seconds')
+        msg.linear.x = -20.0
+        msg.angular.z = 20.0
+        self.publisher_.publish(msg)
+        time.sleep(5.0)
+
+        self.get_logger().info('Moving foward for 5 seconds')
+        msg.linear.x = -40.0
+        msg.angular.z = -40.0
+        self.publisher_.publish(msg)
+        time.sleep(5.0)
+
+        self.get_logger().info('Turning left for 3 seconds')
+        msg.linear.x = 20.0
+        msg.angular.z = -20.0
+        self.publisher_.publish(msg)
+        time.sleep(3.0)
+
+        self.get_logger().info('Moving foward for 5 seconds')
+        msg.linear.x = -40.0
+        msg.angular.z = -40.0
+        self.publisher_.publish(msg)
+        time.sleep(5.0)
+
         # Display the message on the console
-        self.get_logger().info('Publishing: "%s"' % msg)
+        self.get_logger().info('I will catch the trash :D!')
+        msg.linear.x =  0.0
+        msg.linear.y =  22.0
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
+        time.sleep(30.0)
 
 
         

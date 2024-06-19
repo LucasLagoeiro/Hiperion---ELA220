@@ -24,7 +24,7 @@ class Ros2Serial(Node):
         self.get_logger().set_level(LoggingSeverity.INFO)
         
         self.declare_parameter('baud_rate', 115200)
-        self.declare_parameter('serial_port', '/dev/ttyUSB1') # Substitua pelo nome da porta correta - '/dev/ttyACM0'  ou '/dev/ttyUSB0'
+        self.declare_parameter('serial_port', '/dev/ttyUSB0') # Substitua pelo nome da porta correta - '/dev/ttyACM0'  ou '/dev/ttyUSB0'
 
         self.baud_rate = self.get_parameter('baud_rate').value
         self.serial_port = self.get_parameter('serial_port').value
@@ -60,25 +60,14 @@ class Ros2Serial(Node):
         
     def cmd_vel_callback(self, msg):
         data = {
-            'linear_x': -40.0,
+            'linear_x': msg.linear.x,
 #            'linear_y' : msg.linear.y,
 #            'linear_z' : msg.linear.z,
 #            'angular_x' : msg.angular.x,
 #            'angular_y' : msg.angular.y,
-            'angular_z' : -40.0
+            'angular_z' : msg.angular.z
         }
         json_data = json.dumps(data)
-#         time.sleep(5)
-#         data = {
-#             'linear_x': 0.0,
-# #            'linear_y' : msg.linear.y,
-# #            'linear_z' : msg.linear.z,
-# #            'angular_x' : msg.angular.x,
-# #            'angular_y' : msg.angular.y,
-#             'angular_z' : 0.0
-#         }
-#         json_data = json.dumps(data)
-#         time.sleep(15)
         try:
             self.ser.write(json_data.encode())
         except (serial.SerialException, serial.SerialTimeoutException, serial.serialutil.SerialException):

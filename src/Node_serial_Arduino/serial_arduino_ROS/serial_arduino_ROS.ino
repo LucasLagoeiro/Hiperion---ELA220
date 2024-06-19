@@ -1,4 +1,4 @@
-//#include "ESP32Encoder.h"
+  //#include "ESP32Encoder.h"
 #include <ArduinoJson.h>
 #include "Pins.h"
 #include "MotorSpeedControl.h"
@@ -6,7 +6,7 @@
 #define BUFFER_SIZE_RECEIVER 300
 #define END_OF_JSON_CHAR '}'
 
-#define ENCODER_PERIOD 5000
+#define ENCODER_PERIOD 50
 
 
 
@@ -65,7 +65,7 @@ void processMessage() {
       float linear_x = doc_subscription_cmd_vel["linear_x"];
       float angular_z = doc_subscription_cmd_vel["angular_z"];
 
-      if(linear_x < 20.0 && linear_x > -20.0 && angular_z < 20.0 && angular_z > -20.0) {
+      
         // Define os valores
         vel.linear.x = linear_x;
 //        Serial.println(vel.linear.x);
@@ -77,7 +77,7 @@ void processMessage() {
 
         
         
-      }
+      
     }
   }
 }
@@ -136,24 +136,16 @@ void loop() {
     
 //
 
-//    //Foward
-//    controlVelocity(-40.0,-40.0);
-//    delay(3000);
 
-//    //Turn right
-//    controlVelocity(0.0,-40.0);
-//    delay(5000);
-
-     //Stop
     controlVelocity(vel.linear.x,vel.angular.z);
-//    delay(15000);
 
 
 
 
 
-    array_encoders.add(10*vel.linear.x);
-    array_encoders.add(10*vel.angular.z);
+
+    array_encoders.add(vel.linear.x);
+    array_encoders.add(vel.angular.z);
 
     
   
