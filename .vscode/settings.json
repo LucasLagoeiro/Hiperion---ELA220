@@ -1,12 +1,15 @@
 {
     "ros.distro": "humble",
     "python.autoComplete.extraPaths": [
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages",
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/install/finalExam_pkg/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/install/manip_pkg/lib/python3.10/site-packages",
+        "/home/llagoeiro/Desktop/Hiperion-ELA220/install/finalExam_pkg/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ],
-    "cmake.configureOnOpen": false
+    ]
 }
