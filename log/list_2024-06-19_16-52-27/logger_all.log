@@ -1,0 +1,194 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/llagoeiro/Desktop/Hiperion-ELA220']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/llagoeiro/Desktop/Hiperion-ELA220'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x727bc373be80>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x727bc38b38b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x727bc38b38b0>>, mixin_verb=('list',))
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.582s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/llagoeiro/Desktop/Hiperion-ELA220'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/build) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/build) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/build) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/install) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/install) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/install) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/log) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/log) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/log) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/Node_serial_Arduino) by extension 'python_setup_py'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'ros'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extensions ['cmake', 'python']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorControlling) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extensions ['cmake', 'python']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/MotorSpeedControl) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extensions ['cmake', 'python']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'cmake'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'python'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/backup) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'python'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/Node_serial_Arduino/serial_arduino_ROS/encodersTest) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package '/home/llagoeiro/Desktop/Hiperion-ELA220/src/finalExam_pkg' with type 'ros.ament_python' and name 'finalExam_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package '/home/llagoeiro/Desktop/Hiperion-ELA220/src/gazebo' with type 'ros.ament_python' and name 'gazebo'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg) by extension 'ros'
+[0.663s] DEBUG:colcon.colcon_core.package_identification:Package '/home/llagoeiro/Desktop/Hiperion-ELA220/src/manip_pkg' with type 'ros.ament_python' and name 'manip_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver) by extension 'ros'
+[0.667s] DEBUG:colcon.colcon_core.package_identification:Package '/home/llagoeiro/Desktop/Hiperion-ELA220/src/ros2_mpu6050_driver' with type 'ros.ament_cmake' and name 'mpu6050driver'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package '/home/llagoeiro/Desktop/Hiperion-ELA220/src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
