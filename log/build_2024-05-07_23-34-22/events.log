@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000159] (-) JobUnselected: {'identifier': 'basic_mobile_robot'}
-[0.000190] (-) JobUnselected: {'identifier': 'basic_mobile_robot'}
-[0.000207] (-) JobUnselected: {'identifier': 'gazebo'}
-[0.000222] (-) JobUnselected: {'identifier': 'mpu6050driver'}
-[0.000237] (-) JobUnselected: {'identifier': 'rplidar_ros'}
-[0.000253] (-) EventReactorShutdown: {}

@@ -1,8 +1,0 @@
-[0.011s] Invoking command in '/home/llagoeiro/Desktop/Hiperion-ELA220/build/ekf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/llagoeiro/Desktop/Hiperion-ELA220/src/ekf -DCMAKE_INSTALL_PREFIX=/home/llagoeiro/Desktop/Hiperion-ELA220/install/ekf
-[0.024s] [31mCMake Error at CMakeLists.txt:42:
-[0.024s]   Parse error.  Expected a command name, got unquoted argument with text
-[0.024s]   "CMakeLists.txt".
-[0.024s] 
-[0.024s] [0m
-[0.025s] -- Configuring incomplete, errors occurred!
-[0.027s] Invoked command in '/home/llagoeiro/Desktop/Hiperion-ELA220/build/ekf' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/llagoeiro/Desktop/Hiperion-ELA220/src/ekf -DCMAKE_INSTALL_PREFIX=/home/llagoeiro/Desktop/Hiperion-ELA220/install/ekf

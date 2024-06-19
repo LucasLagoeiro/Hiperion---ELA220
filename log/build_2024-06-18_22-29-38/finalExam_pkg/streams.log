@@ -1,0 +1,56 @@
+[3.010s] Invoking command in '/home/wall-e/Desktop/daVinci/src/finalExam_pkg': PYTHONPATH=/home/wall-e/Desktop/daVinci/build/finalExam_pkg/prefix_override:/home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/finalExam_pkg build --build-base /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build install --record /home/wall-e/Desktop/daVinci/build/finalExam_pkg/install.log --single-version-externally-managed install_data
+[4.197s] running egg_info
+[4.200s] writing ../../build/finalExam_pkg/finalExam_pkg.egg-info/PKG-INFO
+[4.201s] writing dependency_links to ../../build/finalExam_pkg/finalExam_pkg.egg-info/dependency_links.txt
+[4.202s] writing entry points to ../../build/finalExam_pkg/finalExam_pkg.egg-info/entry_points.txt
+[4.203s] writing requirements to ../../build/finalExam_pkg/finalExam_pkg.egg-info/requires.txt
+[4.204s] writing top-level names to ../../build/finalExam_pkg/finalExam_pkg.egg-info/top_level.txt
+[4.213s] reading manifest file '../../build/finalExam_pkg/finalExam_pkg.egg-info/SOURCES.txt'
+[4.214s] adding license file 'LICENSE'
+[4.216s] writing manifest file '../../build/finalExam_pkg/finalExam_pkg.egg-info/SOURCES.txt'
+[4.217s] running build
+[4.218s] running build_py
+[4.218s] creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build
+[4.219s] creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib
+[4.219s] creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg
+[4.219s] copying finalExam_pkg/main_node.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg
+[4.220s] copying finalExam_pkg/__init__.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg
+[4.220s] creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.221s] copying finalExam_pkg/submodules/ui_mainwindow.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.222s] copying finalExam_pkg/submodules/robot.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.223s] copying finalExam_pkg/submodules/teste.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.223s] copying finalExam_pkg/submodules/thread.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.224s] copying finalExam_pkg/submodules/mainwindow.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.225s] copying finalExam_pkg/submodules/__init__.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+[4.227s] running install
+[4.228s] running install_lib
+[4.232s] creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg
+[4.232s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/main_node.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg
+[4.233s] creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.233s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/ui_mainwindow.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.234s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/robot.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.235s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/teste.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.236s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/thread.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.237s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/mainwindow.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.238s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/__init__.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+[4.239s] copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/__init__.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg
+[4.241s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/main_node.py to main_node.cpython-310.pyc
+[4.243s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/ui_mainwindow.py to ui_mainwindow.cpython-310.pyc
+[4.249s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/robot.py to robot.cpython-310.pyc
+[4.252s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/teste.py to teste.cpython-310.pyc
+[4.254s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/thread.py to thread.cpython-310.pyc
+[4.257s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/mainwindow.py to mainwindow.cpython-310.pyc
+[4.262s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/__init__.py to __init__.cpython-310.pyc
+[4.264s] byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/__init__.py to __init__.cpython-310.pyc
+[4.265s] running install_data
+[4.266s] creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index
+[4.271s] creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index/resource_index
+[4.273s] creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index/resource_index/packages
+[4.274s] copying resource/finalExam_pkg -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index/resource_index/packages
+[4.275s] copying package.xml -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/finalExam_pkg
+[4.275s] running install_egg_info
+[4.281s] Copying ../../build/finalExam_pkg/finalExam_pkg.egg-info to /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg-0.0.0-py3.10.egg-info
+[4.286s] running install_scripts
+[4.372s] Installing main_node script to /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/finalExam_pkg
+[4.375s] writing list of installed files to '/home/wall-e/Desktop/daVinci/build/finalExam_pkg/install.log'
+[4.509s] Invoked command in '/home/wall-e/Desktop/daVinci/src/finalExam_pkg' returned '0': PYTHONPATH=/home/wall-e/Desktop/daVinci/build/finalExam_pkg/prefix_override:/home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/finalExam_pkg build --build-base /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build install --record /home/wall-e/Desktop/daVinci/build/finalExam_pkg/install.log --single-version-externally-managed install_data

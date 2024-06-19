@@ -1,1 +1,0 @@
-/home/wall-e/Desktop/manip_ws/src/manip_pkg/setup.py

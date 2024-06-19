@@ -1,0 +1,54 @@
+running egg_info
+writing ../../build/finalExam_pkg/finalExam_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/finalExam_pkg/finalExam_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/finalExam_pkg/finalExam_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/finalExam_pkg/finalExam_pkg.egg-info/requires.txt
+writing top-level names to ../../build/finalExam_pkg/finalExam_pkg.egg-info/top_level.txt
+reading manifest file '../../build/finalExam_pkg/finalExam_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/finalExam_pkg/finalExam_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build
+creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib
+creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg
+copying finalExam_pkg/main_node.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg
+copying finalExam_pkg/__init__.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg
+creating /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+copying finalExam_pkg/submodules/ui_mainwindow.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+copying finalExam_pkg/submodules/robot.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+copying finalExam_pkg/submodules/teste.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+copying finalExam_pkg/submodules/thread.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+copying finalExam_pkg/submodules/mainwindow.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+copying finalExam_pkg/submodules/__init__.py -> /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules
+running install
+running install_lib
+creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/main_node.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg
+creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/ui_mainwindow.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/robot.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/teste.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/thread.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/mainwindow.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/submodules/__init__.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules
+copying /home/wall-e/Desktop/daVinci/build/finalExam_pkg/build/lib/finalExam_pkg/__init__.py -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/main_node.py to main_node.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/ui_mainwindow.py to ui_mainwindow.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/robot.py to robot.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/teste.py to teste.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/thread.py to thread.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/mainwindow.py to mainwindow.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/submodules/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index
+creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index/resource_index
+creating /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index/resource_index/packages
+copying resource/finalExam_pkg -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/wall-e/Desktop/daVinci/install/finalExam_pkg/share/finalExam_pkg
+running install_egg_info
+Copying ../../build/finalExam_pkg/finalExam_pkg.egg-info to /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/python3.10/site-packages/finalExam_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_node script to /home/wall-e/Desktop/daVinci/install/finalExam_pkg/lib/finalExam_pkg
+writing list of installed files to '/home/wall-e/Desktop/daVinci/build/finalExam_pkg/install.log'

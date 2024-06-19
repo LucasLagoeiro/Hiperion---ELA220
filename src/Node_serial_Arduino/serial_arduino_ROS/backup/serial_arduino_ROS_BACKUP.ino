@@ -136,24 +136,11 @@ void loop() {
     
 //
 
-//    //Foward
-//    controlVelocity(-40.0,-40.0);
-//    delay(3000);
 
-//    //Turn right
-//    controlVelocity(0.0,-40.0);
-//    delay(5000);
+    controlVelocity(-40.0,-40.0);
 
-     //Stop
-    controlVelocity(vel.linear.x,vel.angular.z);
-//    delay(15000);
-
-
-
-
-
-    array_encoders.add(10*vel.linear.x);
-    array_encoders.add(10*vel.angular.z);
+    array_encoders.add(1);
+    array_encoders.add(1);
 
     
   
